@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1709136236 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\prototipop11p2024\prototipop11p2024\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<iostream>
+	<iomanip>
+

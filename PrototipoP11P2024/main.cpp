@@ -118,7 +118,16 @@ void llenarMatriz(float matriz[NUMERO_EMPRESAS][NUMERO_YEAR + 1])
     }
 }
 
-
+void imprimirMatrizLinea()
+{
+    int x;
+    cout << "---------------";
+    for (x = 0; x < NUMERO_YEAR + 1; x++)
+    {
+        cout << "----------------";
+    }
+    cout << "+\n";
+}
 float imprimirMatriz(float matriz[NUMERO_EMPRESAS][NUMERO_YEAR + 1], char empresas[NUMERO_EMPRESAS][MAXIMA_LONGITUD_CADENA], string nombreIndustria)
 {
     //Funciòn que imprime la matriz en pantalla y realizando los calculos necesarios para el promedio

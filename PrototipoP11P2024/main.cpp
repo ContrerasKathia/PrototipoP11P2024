@@ -52,6 +52,7 @@ void llamaCiclo()
     {
         //limpia pantalla
         system("cls");
+        cout<<"Hecho Por Kathia Contreras Carne ---- 9959-23-8246 ----"<<endl;
         promedioIndustria1=0;
         promedioIndustria2=0;
         promedioIndustria3=0;
